@@ -1,0 +1,850 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokémon Go</title>
+	<!-- FontAwesome kit's code here -->
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <script src="https://kit.fontawesome.com/cccc6f88ee.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+	<header id="topPage">
+		<nav id="navbar">
+			<img class="logo" src="assets/pokeball.png" id="logo">
+			<div>
+				<ul>
+					<li class="navList">
+						<a href="#topPage" class="menuItem">
+							<div class="indicator" id="indicator1">
+								Pokémon Go
+							</div>
+						</a>
+					</li>
+					<li class="navList">
+						<a href="#whyPokémonGo" class="menuItem">
+							<div class="indicator" id="indicator2">
+								Why POGO?
+							</div>
+						</a>
+					</li>
+					<li class="navList">
+						<a href="#BuddySystem" class="menuItem">
+							<div class="indicator" id="indicator3">
+								Buddy System
+							</div>
+						</a>
+					</li>
+					<li class="navList">
+						<a href="#Medals" class="menuItem">
+							<div class="indicator" id="indicator4">
+								Medal
+							</div>
+						</a>
+					</li>
+					<li class="navList">
+						<a href="#Poster" class="menuItem">
+							<div class="indicator" id="indicator5">
+								Poster
+							</div>
+						</a>
+					</li>
+					<li class="navList">
+						<a href="#socialMedia" class="menuItem">
+							<div class="indicator" id="indicator6">
+								Social Media
+							</div>
+						</a>
+					</li>
+				</ul>
+			</div>
+		</nav>
+		<h1 class="FrontPage">GET UP AND GO</h1>
+	</header>
+	
+  	<div class="whyPOGO_wrapper">
+		<h1 id="whyPokémonGo">Why Pokémon GO?</h1>
+		<div class="column__layout">
+			<div class="column__layout__titles">
+				<img class="column__layout__image" src="assets/medals/Collector_Gold.png">
+				<h2 class="column__layout__content">Collections</h2>
+				<h3 class="column__layout__description">Collect more than 600 kinds of Pokémon from five regions and go on adventures with your favorite buddy!</h3>
+			</div>
+			<div class="column__layout__titles">
+				<img class="column__layout__image" src="assets/medals/BattleGirl_Gold.png">
+				<h2 id="Battles__title" class="column__layout__content">Battles</h2>
+				<h3 id="Battles" class="column__layout__description">Battle and catch various gym raid bosses, compete with players from all over the world, and beat the Team Go Rocket leader!</h3>
+			</div>
+			<div class="column__layout__titles">
+				<img class="column__layout__image" src="assets/medals/Idol_Gold.png">
+				<h2 class="column__layout__content">Friends</h2>
+				<h3 class="column__layout__description">Send gifts to friends, increase friendship levels, send them invitation to Ex-Raids, trade Pokémon, and have a friendly battle!</h3>
+			</div>
+		</div>
+	</div>
+		
+	<div id="BuddySystem" class="video-border">
+		<div id="BuddySystemTitle">NEW BUDDY SYSTEM NOW LIVE IN POKÉMON GO</div>		
+		<video id="buddy_adventures_video" controls>
+			<source src="assets/buddy_adventures_video_cut.mp4" type="video/mp4">
+		</video>
+	</div>
+	
+	<div>
+		<img class="ThreeMedals" src="assets/medals2/Medals.png"  id="Medals">
+		<div id="medal-des-1" class="medals-description">
+			Medals are sort of achievements earned by Trainers for reaching certain milestones, like distance walked, PokéStops visited, Pokémon caught.
+			<br>
+		</div>
+
+		<div id="medal-des-2" class="medals-description">
+			Each medal has three levels: bronze, silver, and gold.
+		</div>
+		<div id="medal-des-3" class="medals-description">
+			For achieving some of the medals Trainers are extra rewarded with bonuses - such as an increased chance of successfully catching certain Pokémon type or bonus wardrobe pieces for Trainers are unlocked to be purchased.
+		</div>
+		<div id="medal-des-4" class="medals-description">
+			<a href="#Achievement" class="medal_link">
+				Click on the shadow medals below for more information!
+			</a>
+		</div>
+		<div class="Achievement" id="Achievement">
+			<div class="medal">
+				<button class="medalButton" id="Jogger_shadow">
+					<img id="Jogger_image" src="assets/medals2/Jogger_shadow.png">
+					<div id="Jogger_caption" class="medals_captions">Jogger</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Collector_shadow">
+					<img id="Collector_image" src="assets/medals2/Collector_shadow.png">
+					<div id="Collector_caption" class="medals_captions">Collector</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Scientist_shadow">
+					<img id="Scientist_image" src="assets/medals2/Scientist_shadow.png">
+					<div id="Scientist_caption" class="medals_captions">Scientist</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Breeder_shadow">
+					<img id="Breeder_image" src="assets/medals2/Breeder_shadow.png">
+					<div id="Breeder_caption" class="medals_captions">Breeder</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Backpacker_shadow">
+					<img class="medal_image" id="Backpacker_image" src="assets/medals2/Backpacker_shadow.png">
+					<div id="Backpacker_caption" class="medals_captions">Backpacker</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Researcher_shadow">
+					<img class="medal_image" id="Researcher_image" src="assets/medals2/Researcher_shadow.png">
+					<div id="Researcher_caption" class="medals_captions">
+						Pokémon Ranger
+					</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Cameraman_shadow">
+					<img class="medal_image" id="Cameraman_image" src="assets/medals2/Cameraman_shadow.png">
+					<div id="Cameraman_caption" class="medals_captions">Cameraman</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Purifier_shadow">
+					<img class="medal_image" id="Purifier_image" src="assets/medals2/Purifier_shadow.png">
+					<div id="Purifier_caption" class="medals_captions">Purifier</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Kanto_shadow">
+					<img class="medal_image" id="Kanto_image" src="assets/medals2/Kanto_shadow.png">
+					<div id="Kanto_caption" class="medals_captions">Kanto</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Johto_shadow">
+					<img class="medal_image" id="Johto_image" src="assets/medals2/Johto_shadow.png">
+					<div id="Johto_caption" class="medals_captions">Johto</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Hoenn_shadow">
+					<img class="medal_image" id="Hoenn_image" src="assets/medals2/Hoenn_shadow.png">
+					<div id="Hoenn_caption" class="medals_captions">Hoenn</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Sinnoh_shadow">
+					<img class="medal_image" id="Sinnoh_image" src="assets/medals2/Sinnoh_shadow.png">
+					<div id="Sinnoh_caption" class="medals_captions">Sinnoh</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Unova_shadow">
+					<img class="medal_image" id="Unova_image" src="assets/medals2/Unova_shadow.png">
+					<div id="Unova_caption" class="medals_captions">Unova</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="BattleGirl_shadow">
+					<img class="medal_image" id="BattleGirl_image" src="assets/medals2/BattleGirl_shadow.png">
+					<div id="BattleGirl_caption" class="medals_captions">Battle Girl</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="AceTrainer_shadow">
+					<img class="medal_image" id="AceTrainer_image" src="assets/medals2/AceTrainer_shadow.png">
+					<div id="AceTrainer_caption" class="medals_captions">Ace Trainer</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="BerryMaster_shadow">
+					<img class="medal_image" id="BerryMaster_image" src="assets/medals2/BerryMaster_shadow.png">
+					<div id="BerryMaster_caption" class="medals_captions">Berry Master</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="GymLeader_shadow">
+					<img class="medal_image" id="GymLeader_image" src="assets/medals2/GymLeader_shadow.png">
+					<div id="GymLeader_caption" class="medals_captions">Gym Leader</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Champion_shadow">
+					<img class="medal_image" id="Champion_image" src="assets/medals2/Champion_shadow.png">
+					<div id="Champion_caption" class="medals_captions">Champion</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="BattleLegend_shadow">
+					<img class="medal_image" id="BattleLegend_image" src="assets/medals2/BattleLegend_shadow.png">
+					<div id="BattleLegend_caption" class="medals_captions">Battle Legend</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Hero_shadow">
+					<img class="medal_image" id="Hero_image" src="assets/medals2/Hero_shadow.png">
+					<div id="Hero_caption" class="medals_captions">Hero</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="UltraHero_shadow">
+					<img class="medal_image" id="UltraHero_image" src="assets/medals2/UltraHero_Silver.png">
+					<div id="UltraHero_caption" class="medals_captions">Ultra Hero</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Gentleman_shadow">
+					<img class="medal_image" id="Gentleman_image" src="assets/medals2/Gentleman_shadow.png">
+					<div id="Gentleman_caption" class="medals_captions">Gentleman</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Idol_shadow">
+					<img class="medal_image" id="Idol_image" src="assets/medals2/Idol_shadow.png">
+					<div id="Idol_caption" class="medals_captions">Idol</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Pilot_shadow">
+					<img class="medal_image" id="Pilot_image" src="assets/medals2/Pilot_shadow.png">
+					<div id="Pilot_caption" class="medals_captions">Pilot</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="GreatLeague_shadow">
+					<img class="medal_image" id="GreatLeague_image" src="assets/medals2/GreatLeague_shadow.png">
+					<div id="GreatLeague_caption" class="medals_captions_veteran">Great League Veteran</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="UltraLeague_shadow">
+					<img class="medal_image" id="UltraLeague_image" src="assets/medals2/UltraLeague_shadow.png">
+					<div id="UltraLeague_caption" class="medals_captions_veteran">Ultra League Veteran</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="MasterLeague_shadow">
+					<img class="medal_image" id="MasterLeague_image" src="assets/medals2/MasterLeague_shadow.png">
+					<div id="MasterLeague_caption" class="medals_captions_veteran">Master League Veteran</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Fisherman_shadow">
+					<img class="medal_image" id="Fisherman_image" src="assets/medals2/Fisherman_shadow.png">
+					<div id="Fisherman_caption" class="medals_captions">Fisher</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Youngster_shadow">
+					<img class="medal_image" id="Youngster_image" src="assets/medals2/Youngster_shadow.png">
+					<div id="Youngster_caption" class="medals_captions">Youngster</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="PikachuFan_shadow">
+					<img class="medal_image" id="PikachuFan_image" src="assets/medals2/PikachuFan_shadow.png">
+					<div id="PikachuFan_caption" class="medals_captions">Pikachu Fan</div>
+				</button>
+			</div>
+			<div class="medal">
+				<button class="medalButton" id="Unown_shadow">
+					<img class="medal_image" id="Unown_image" src="assets/medals2/Unown_shadow.png">
+					<div id="Unown_caption" class="medals_captions">Unown</div>
+				</button>
+			</div>
+		</div><!-- Achievements -->
+	</div><!-- Medals -->
+	
+	<div id="Jogger_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Jogger_Bronze.png">
+				<div class="modal-text-bronze">Walk 10 km.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Jogger_Silver.png">
+				<div class="modal-text-silver">Walk 100 km.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Jogger_Gold.png">
+				<div class="modal-text-gold">Walk 1,000 km.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Collector_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Collector_Bronze.png">
+				<div class="modal-text-bronze">Catch 30 Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Collector_Silver.png">
+				<div class="modal-text-silver">Catch 500 Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Collector_Gold.png">
+				<div class="modal-text-gold">Catch 2,000 Pokémon.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Scientist_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Scientist_Bronze.png">
+				<div class="modal-text-bronze">Evolve 3 Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Scientist_Silver.png">
+				<div class="modal-text-silver">Evolve 20 Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Scientist_Gold.png">
+				<div class="modal-text-gold">Evolve 200 Pokémon.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Breeder_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Breeder_Bronze.png">
+				<div class="modal-text-bronze">Hatch 10 Eggs.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Breeder_Silver.png">
+				<div class="modal-text-silver">Hatch 100 Eggs.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Breeder_Gold.png">
+				<div class="modal-text-gold">Hatch 500 Eggs.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Backpacker_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Backpacker_Bronze.png">
+				<div class="modal-text-bronze">Visit 100 PokéStops.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Backpacker_Silver.png">
+				<div class="modal-text-silver">Visit 1,000 PokéStops.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Backpacker_Gold.png">
+				<div class="modal-text-gold">Visit 2,000 PokéStops.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Researcher_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Researcher_Bronze.png">
+				<div class="modal-text-bronze">Complete 10 Field Research tasks.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Researcher_Silver.png">
+				<div class="modal-text-silver">Complete 100 Field Research tasks.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Researcher_Gold.png">
+				<div class="modal-text-gold">Complete 1,000 Field Research tasks.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Cameraman_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Cameraman_Bronze.png">
+				<div class="modal-text-bronze">Have 10 surprise encounters in Go Snapshot.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Cameraman_Silver.png">
+				<div class="modal-text-silver">Have 50 surprise encounters in Go Snapshot.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Cameraman_Gold.png">
+				<div class="modal-text-gold">Have 200 surprise encounters in Go Snapshot.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Purifier_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Purifier_Bronze.png">
+				<div class="modal-text-bronze">Purify 5 Shadow Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Purifier_Silver.png">
+				<div class="modal-text-silver">Purify 50 Shadow Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Purifier_Gold.png">
+				<div class="modal-text-gold">Purify 500 Shadow Pokémon.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Kanto_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Kanto_Bronze.png">
+				<div class="modal-text-bronze">Register 5 Kanto region Pokémon in the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Kanto_Silver.png">
+				<div class="modal-text-silver">Register 50 Kanto region Pokémon in the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Kanto_Gold.png">
+				<div class="modal-text-gold">Register 100 Kanto region Pokémon in the Pokédex.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Johto_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Johto_Bronze.png">
+				<div class="modal-text-bronze">Register 5 Pokémon first discovered in the Johto region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Johto_Silver.png">
+				<div class="modal-text-silver">Register 30 Pokémon first discovered in the Johto region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Johto_Gold.png">
+				<div class="modal-text-gold">Register 70 Pokémon first discovered in the Johto region to the Pokédex.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Hoenn_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Hoenn_Bronze.png">
+				<div class="modal-text-bronze">Register 5 Pokémon first discovered in the Hoenn region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Hoenn_Silver.png">
+				<div class="modal-text-silver">Register 40 Pokémon first discovered in the Hoenn region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Hoenn_Gold.png">
+				<div class="modal-text-gold">Register 90 Pokémon first discovered in the Hoenn region to the Pokédex.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Sinnoh_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Sinnoh_Bronze.png">
+				<div class="modal-text-bronze">Register 5 Pokémon first discovered in the Sinnoh region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Sinnoh_Silver.png">
+				<div class="modal-text-silver">Register 30 Pokémon first discovered in the Sinnoh region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Sinnoh_Gold.png">
+				<div class="modal-text-gold">Register 80 Pokémon first discovered in the Sinnoh region to the Pokédex.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Unova_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Unova_Bronze.png">
+				<div class="modal-text-bronze">Register 5 Pokémon first discovered in the Unova region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Unova_Silver.png">
+				<div class="modal-text-silver">Register 50 Pokémon first discovered in the Unova region to the Pokédex.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Unova_Gold.png">
+				<div class="modal-text-gold">Register 100 Pokémon first discovered in the Unova region to the Pokédex.</div>
+			</div>
+		</div>
+	</div>
+	<div id="BattleGirl_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/BattleGirl_Bronze.png">
+				<div class="modal-text-bronze">Win 10 Gym battles.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/BattleGirl_Silver.png">
+				<div class="modal-text-silver">Win 100 Gym battles.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/BattleGirl_Gold.png">
+				<div class="modal-text-gold">Win 1000 Gym battles.</div>
+			</div>
+		</div>
+	</div>
+	<div id="AceTrainer_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/AceTrainer_Bronze.png">
+				<div class="modal-text-bronze">Train 10 times.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/AceTrainer_Silver.png">
+				<div class="modal-text-silver">Train 100 times.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/AceTrainer_Gold.png">
+				<div class="modal-text-gold">Train 1,000 times.</div>
+			</div>
+		</div>
+	</div>
+	<div id="BerryMaster_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/BerryMaster_Bronze.png">
+				<div class="modal-text-bronze">Feed 10 Berries at Gyms.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/BerryMaster_Silver.png">
+				<div class="modal-text-silver">Feed 100 Berries at Gyms.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/BerryMaster_Gold.png">
+				<div class="modal-text-gold">Feed 1,000 Berries at Gyms.</div>
+			</div>
+		</div>
+	</div>
+	<div id="GymLeader_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/GymLeader_Bronze.png">
+				<div class="modal-text-bronze">Defend Gyms for 10 hours.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/GymLeader_Silver.png">
+				<div class="modal-text-silver">Defend Gyms for 100 hours.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/GymLeader_Gold.png">
+				<div class="modal-text-gold">Defend Gyms for 1,000 hours.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Champion_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Champion_Bronze.png">
+				<div class="modal-text-bronze">Win 10 raids.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Champion_Silver.png">
+				<div class="modal-text-silver">Win 100 raids.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Champion_Gold.png">
+				<div class="modal-text-gold">Win 1,000 raids.</div>
+			</div>
+		</div>
+	</div>
+	<div id="BattleLegend_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/BattleLegend_Bronze.png">
+				<div class="modal-text-bronze">Win 10 Legendary raids.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/BattleLegend_Silver.png">
+				<div class="modal-text-silver">Win 100 Legendary raids.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/BattleLegend_Gold.png">
+				<div class="modal-text-gold">Win 1,000 Legendary raids.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Hero_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Hero_Bronze.png">
+				<div class="modal-text-bronze">Defeat 10 Team Go Rocket members.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Hero_Silver.png">
+				<div class="modal-text-silver">Defeat 100 Team Go Rocket members.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Hero_Gold.png">
+				<div class="modal-text-gold">Defeat 1,000 Team Go Rocket members.</div>
+			</div>
+		</div>
+	</div>
+	<div id="UltraHero_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/UltraHero_Bronze.png">
+				<div class="modal-text-bronze">Defeat the Team Go Rocket Boss.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/UltraHero_Silver.png">
+				<div class="modal-text-silver">Defeat the Team Go Rocket Boss 5 times.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/UltraHero_Gold.png">
+				<div class="modal-text-gold">Defeat the Team Go Rocket Boss 20 times.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Gentleman_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Gentleman_Bronze.png">
+				<div class="modal-text-bronze">Trade 10 Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Gentleman_Silver.png">
+				<div class="modal-text-silver">Trade 100 Pokémon.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Gentleman_Gold.png">
+				<div class="modal-text-gold">Trade 1000 Pokémon.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Idol_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Idol_Bronze.png">
+				<div class="modal-text-bronze">Become Best Friends with 1 Trainer.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Idol_Silver.png">
+				<div class="modal-text-silver">Become Best Friends with 2 Trainers.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Idol_Gold.png">
+				<div class="modal-text-gold">Become Best Friends with 3 Trainers.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Pilot_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Pilot_Bronze.png">
+				<div class="modal-text-bronze">Earn 1,000 km across the distance of all Pokémon trades.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Pilot_Silver.png">
+				<div class="modal-text-silver">Earn 100,000 km across the distance of all Pokémon trades.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Pilot_Gold.png">
+				<div class="modal-text-gold">Earn 1,000,000 km across the distance of all Pokémon trades.</div>
+			</div>
+		</div>
+	</div>
+	<div id="GreatLeague_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/GreatLeague_Bronze.png">
+				<div class="modal-text-bronze">Win 5 Trainer Battles in the Great League.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/GreatLeague_Silver.png">
+				<div class="modal-text-silver">Win 50 Trainer Battles in the Great League.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/GreatLeague_Gold.png">
+				<div class="modal-text-gold">Win 200 Trainer Battles in the Great League.</div>
+			</div>
+		</div>
+	</div>
+	<div id="UltraLeague_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/UltraLeague_Bronze.png">
+				<div class="modal-text-bronze">Win 5 Trainer Battles in the Ultra League.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/UltraLeague_Silver.png">
+				<div class="modal-text-silver">Win 50 Trainer Battles in the Ultra League.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/UltraLeague_Gold.png">
+				<div class="modal-text-gold">Win 200 Trainer Battles in the Ultra League.</div>
+			</div>
+		</div>
+	</div>
+	<div id="MasterLeague_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/MasterLeague_Bronze.png">
+				<div class="modal-text-bronze">Win five Trainer Battles in the Master League.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/MasterLeague_Silver.png">
+				<div class="modal-text-silver">Win 50 Trainer Battles in the Master League.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/MasterLeague_Gold.png">
+				<div class="modal-text-gold">Win 200 Trainer Battles in the Master League.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Fisherman_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Fisherman_Bronze.png">
+				<div class="modal-text-bronze">Catch 3 big Magikarp.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Fisherman_Silver.png">
+				<div class="modal-text-silver">Catch 50 big Magikarp.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Fisherman_Gold.png">
+				<div class="modal-text-gold">Catch 300 big Magikarp.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Youngster_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Youngster_Bronze.png">
+				<div class="modal-text-bronze">Catch 3 tiny Rattata.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Youngster_Silver.png">
+				<div class="modal-text-silver">Catch 50 tiny Rattata.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Youngster_Gold.png">
+				<div class="modal-text-gold">Catch 300 tiny Rattata.</div>
+			</div>
+		</div>
+	</div>
+	<div id="PikachuFan_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/PikachuFan_Bronze.png">
+				<div class="modal-text-bronze">Catch 3 Pikachu.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/PikachuFan_Silver.png">
+				<div class="modal-text-silver">Catch 50 Pikachu.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/PikachuFan_Gold.png">
+				<div class="modal-text-gold">Catch 300 Pikachu.</div>
+			</div>
+		</div>
+	</div>
+	<div id="Unown_modal" class="modal">
+		<div class="modal-flex">
+			<div class="modal-content">
+				<img src="assets/medals2/Unown_Bronze.png">
+				<div class="modal-text-bronze">Catch 3 Unown.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Unown_Silver.png">
+				<div class="modal-text-silver">Catch 10 Unown.</div>
+			</div>
+			<div class="modal-content">
+				<img src="assets/medals2/Unown_Gold.png">
+				<div class="modal-text-gold">Catch 26 Unown.</div>
+			</div>
+		</div>
+	</div>
+	
+	<div class="carousel-wrapper" id="Poster">
+    	<div class="carousel fade">
+			<img src="assets/PokemonGoValentines-resize.jpg">
+			<div class="carousel-text">Pokémon Go Valentine's Day</div>
+		</div>
+    	<div class="carousel fade">
+			<img src="assets/alomomola-resize.jpg">
+			<div class="carousel-text">Alomomola</div>
+		</div>
+    	<div class="carousel fade">
+			<img src="assets/audino-resize.jpg">
+			<div class="carousel-text">Audino</div>
+		</div>
+    	<div class="carousel fade">
+			<img src="assets/lickitung-resize.jpg">
+			<div class="carousel-text">Lickitung</div>
+		</div>
+		<div id="carousel-button-next">&#10095;</div>
+		<div id="carousel-button-prev">&#10094;</div>
+	</div>
+	
+	<footer id="socialMedia">
+		<div id="footer-content">
+			<a href="https://twitter.com/PokemonGoApp?ref_src=twsrc%5Egoogle%7Ctwcamp%5Eserp%7Ctwgr%5Eauthor" 
+	target="_blank">
+				<i class="fab fa-twitter-square"></i>
+			</a>
+			<a href="https://www.facebook.com/PokemonGO/" 
+	target="_blank">
+				<i class="fab fa-facebook-square"></i>
+			</a>
+			<a href="https://www.instagram.com/pokemongoapp/?hl=en" 
+	target="_blank">
+				<i class="fab fa-instagram-square"></i>
+			</a>
+			<a href="https://www.youtube.com/channel/UCA698bls2pjQyiqP9N-iaeg" 
+	target="_blank">
+				<i class="fab fa-youtube-square"></i>
+			</a>
+			<a href="https://www.linkedin.com/company/niantic" target="_blank">
+				<i class="fab fa-linkedin"></i>
+			</a>
+		</div>
+	</footer>
+	
+	<script src="myScript.js"></script>
+</body>
+
+</html>

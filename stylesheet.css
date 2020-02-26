@@ -1,0 +1,465 @@
+@keyframes fadein {
+	0%		{ opacity: 0; }
+	10%		{ opacity: 0.3; }
+	25%		{ opacity: 0.5; }
+	50%		{ opacity: 0.8; }
+	75%		{ opacity: 0.95; }
+	100%	{ opacity: 1; }
+}
+
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	background: transparent;
+}
+
+body
+{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	animation: 3s ease forwards  fadein;
+}
+
+header
+{
+	background: url(assets/pokemon_wallpaper.jpg);
+	background-size: cover;
+	background-position: center;
+	background-position: 0% 5%;
+	height: 100vh;
+	animation: 3s ease forwards  fadein;
+}
+
+#navbar{
+	z-index:9999;
+}
+
+nav
+{
+	z-index: 9999;
+ 	position: fixed;
+ 	width: 100%;
+ 	line-height: 250%;
+	background-color: rgba(250,250,50,1);
+}
+
+nav ul
+{
+  	float: right;
+  	margin: 0;
+	padding-right: 2.8%;
+}
+
+nav ul li
+{
+  	display: inline-block;
+  	padding: 2.5% 1rem;
+}
+
+nav ul li a
+{
+	text-decoration: none;
+  	color: rgba(8,153,231,1);
+  	font-size: 100%;
+	font-weight: bold;
+}
+
+.medal_link
+{
+	color: rgba(248,6,204,1);
+}
+
+nav ul li a:hover {
+	color: rgba(248,6,204,1);
+}
+
+.logo
+{
+	height: 3rem;
+	float: left;
+	margin: 1% 3%;
+}
+
+.FrontPage
+{
+	font-size: 300%;
+	text-transform: uppercase;
+	letter-spacing: 1rem;
+	font-weight: bold;
+	text-align: center;
+	padding-top: 20%;
+	color: #fff;
+	-webkit-text-stroke-width: 2px;
+	-webkit-text-stroke-color: black;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+.column__layout__titles{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 20%;
+}
+
+.column__layout_image{
+	display: flex;
+}
+
+.column__layout{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-top: 7%;
+	padding-bottom: 13%;
+}
+
+#whyPokémonGo{
+	font-size: 340%;
+  	letter-spacing: 2px;
+  	font-weight: bold;
+  	text-align: center;
+  	padding-top: 10%;
+	background: linear-gradient(rgba(225,239,254,1), rgba(60,155,251,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.whyPOGO_wrapper {
+	overflow: hidden;
+	background-image: url(assets/Eevee.jpg);
+	background-attachment: fixed;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+  	margin: auto;
+	padding-bottom: 5%;
+}
+
+.column__layout__description{
+	color: rgba(16,159,202,1);
+	font-size: 150%;
+	text-align: center;
+}
+
+#Battles{
+	color: rgba(248,251,75,0.9);
+}
+
+#Battles__title{
+	display: flex;
+	justify-content: center;
+	font-size: 200%;
+	font-weight: bold;
+	background: linear-gradient(rgba(94,253,63,0.9), rgba(42,236,3,0.9));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.column__layout__content{
+	display: flex;
+	justify-content: center;
+	font-size: 200%;
+	font-weight: bold;
+	background: linear-gradient(rgba(255,0,45,1), rgba(251,100,130,1));
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.modal {
+	display: none;
+	position: fixed;
+  	z-index: 1;
+  	top: 0;
+  	width: 80%;
+	height: 100%;
+  	overflow: auto;
+  	background-color: rgba(0,0,0,0.4);
+	padding-top: 13%;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+
+.modal-flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.modal-content {
+	padding-top: 5%;
+	text-align: center;
+  	background-color: #FFF;
+  	margin: auto;
+  	width: 80%;
+}
+
+.modal-text {
+	padding-top: 5%;
+	padding-bottom: 10%;
+	font-size: 120%;
+	color: rgba(242,133,7,1);
+}
+
+.modal-text-bronze{
+	padding-top: 5%;
+	padding-bottom: 10%;
+	font-size: 120%;
+	color: rgba(205,127,50,1);
+}
+
+.modal-text-silver{
+	padding-top: 5%;
+	padding-bottom: 10%;
+	font-size: 120%;
+	color: rgba(131,131,131,1);
+}
+
+.modal-text-gold{
+	padding-top: 5%;
+	padding-bottom: 10%;
+	font-size: 120%;
+	color: rgba(242,133,7,1);
+}
+
+.medals_captions{
+	padding-bottom: 25%;
+	font-size: 110%;
+	font-family: inherit;
+	font-weight: 700;
+	color: rgba(242,133,7,1);
+}
+
+.medals_captions_veteran{
+	padding-bottom: 25%;
+	font-family: inherit;
+	font-weight: 700;
+	color: rgba(242,133,7,1);
+	font-size: 80%;
+}
+
+.medal{
+	width: 12.5%;
+}
+
+.Achievement{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 5%;
+}
+
+.medalButton img{
+	width: 50%;
+}
+
+.modal-content img{
+	width: 20%;
+}
+
+.medals-description{
+	padding-left: 5%;
+	padding-right: 5%;
+	color: rgba(12,145,25,1);
+	text-align: center;
+}
+
+#medal-des-2{
+	padding-left: 5%;
+	padding-right: 5%;
+	color: rgba(6,18,248,1);
+	text-align: center;
+}
+
+#medal-des-1{
+	padding-top: 5%;
+}
+
+#medal-des-4{
+	padding-bottom: 0;
+	color: rgba(248,6,204,1);
+}
+
+.ThreeMedals{
+	display: block;
+    margin: 0 auto;
+	width: 10%;
+	padding-top: 5%;
+}
+
+.medals-description{
+	text-align: center;
+	line-height: 200%;
+	font-size: 140%;
+}
+
+.video-content{
+	bottom: 0;
+}
+
+.video-border{
+	padding-top: 5%;
+	width: 100%;
+	height: 80%;
+	overflow: hidden;
+}
+
+#BuddySystemTitle{
+	text-align: center;
+	font-size: 300%;
+	background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red, pink);
+	-webkit-background-clip: text;
+  	color: transparent;
+}
+
+#buddy_adventures_video{
+	max-width: 70%;
+	padding-top: 1%;
+	padding-left: 15%;
+	padding-right: 15%;
+}
+
+#videoButton{
+	z-index: 1;
+	width: 200px;
+  	font-size: 18px;
+	padding: 10px;
+  	border: none;
+  	background: #000;
+  	color: #fff;
+  	cursor: pointer;
+}
+
+#videoButton:hover{
+	background: #ddd;
+  	color: black;
+}
+
+.indicator{
+	width: 130%;
+	height: 100%;
+	padding: 1%;
+	border-radius: 8%;
+}
+
+.navList{
+	text-align: center;
+}
+
+.carousel-wrapper {
+	display: flex;
+	justify-content: center;
+	padding-top: 5%;
+	padding-bottom: 20%;
+  	position: relative;
+  	margin: auto;
+}
+
+.carousel-wrapper * {
+  box-sizing: border-box;
+}
+
+.carousel {
+	position: relative;
+	display: none;
+}
+
+.carousel-text{
+	color: pink;
+	font-size: 200%;
+	text-align: center;
+}
+
+.fade {
+	animation-name: fade;
+	animation-duration: 1.5s;
+}
+
+@keyframes fade{
+	from {opacity: 0.4}
+	to {opacity: 1}
+}
+
+#carousel-button-prev,
+#carousel-button-next{
+  	position: absolute;
+  	top:35%;
+  	cursor: pointer;
+	margin-top: -1%;
+	width: auto;
+	padding: 1%;
+	color: pink;
+	font-weight: bold;
+	font-size: 200%;
+	transition: 0.6s ease;
+	border-radius: 0 10% 10% 0;
+	user-select: none;
+	z-index: 1000;
+}
+
+#carousel-button-prev:hover,
+#carousel-button-next:hover{
+	background-color: rgba(211,236,246,0.8);
+}
+
+#carousel-button-next{
+	position: absolute;
+	border-radius: 10% 10% 10% 10%;
+	right: 15%;
+}
+
+#carousel-button-prev{
+	position: absolute;
+	border-radius: 10% 10% 10% 10%;
+	left: 15%;
+}
+
+#footer-content{
+	padding-top: 10%;
+	padding-bottom: 10%;
+	width: 100%;
+	background-color: #91d370;
+	background-image: linear-gradient(319deg, #91d370 0%, #bca0ff 37%, #f2cd54 100%);
+	display: flex;
+	justify-content: space-around;
+}
+
+.fab{
+	font-size: 200%;
+}
+
+.fa-twitter-square{
+	color: orange;
+	font-size: 400%;
+}
+
+.fa-facebook-square{
+	color: rgba(6,217,217,1);
+	font-size: 400%;
+}
+
+.fa-instagram-square{
+	color: rgba(219,55,219,1);
+	font-size: 400%;
+}
+
+.fa-youtube-square{
+	color: rgba(158,233,36,1);
+	font-size: 400%;
+}
+
+.fa-linkedin{
+	color: rgba(76,110,244,1);
+	font-size: 400%;
+}

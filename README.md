@@ -1,2 +1,2 @@
 # PokemonGoWebsite
-Personal website of information about Pokemon Go
+This is the website that I built containing some information about Pokemon Go since I love playing it.

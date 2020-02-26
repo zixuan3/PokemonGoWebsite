@@ -1,0 +1,58 @@
+Image Resources: Pokemon Go official Instagram, Twitter, Facebook, Youtube.
+
+Sticky Navbar On Scroll | Sticky Navigation Menu In HTML CSS And jQuery - Easy Tutorials
+https://www.youtube.com/watch?v=oJyigwRFrsQ
+
+Make white space at top of page go away
+https://stackoverflow.com/questions/18772154/white-space-at-top-of-page
+
+Shrink navbar on scroll - W3Schools
+https://www.w3schools.com/howto/howto_js_navbar_shrink_scroll.asp
+
+Smooth scroll - W3Schools
+https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+
+Change link color when hovering over a link in HTML - ComputerHope
+https://www.computerhope.com/issues/ch000075.htm
+
+How to build a carousel from scratch
+https://medium.com/@marcusmichaels/how-to-build-a-carousel-from-scratch-in-vanilla-js-9a096d3b98c9
+
+Center image
+https://stackoverflow.com/questions/7055393/center-image-using-text-align-center
+
+CSS_modal
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_modal
+
+Resize images
+https://css-tricks.com/forums/topic/image-will-not-resize-inside-my-div/
+
+Pokemon Go Achievement Medal images
+https://pokemongo.fandom.com/wiki/Medals
+
+Fullscreen background video
+https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_fullscreen_video
+
+javascript set color rgba
+https://stackoverflow.com/questions/8177964/in-javascript-how-can-i-set-rgba-without-specifying-the-rgb
+
+How to get the distance from the top for an element
+https://stackoverflow.com/questions/11805955/how-to-get-the-distance-from-the-top-for-an-element
+
+Pick color
+https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Colors/Color_picker_tool
+
+How do I change the footer background color in css
+https://stackoverflow.com/questions/42847629/how-do-i-change-the-footer-background-color-in-css/42847697
+
+Sizing fontawesome icons
+https://fontawesome.com/how-to-use/on-the-web/styling/sizing-icons
+
+image Color Picker
+https://imagecolorpicker.com/
+
+rainbow gradient background
+https://www.eggradients.com/category/rainbow-gradient#Gradient-start
+
+How to create Javascript slideshow
+https://www.w3schools.com/howto/howto_js_slideshow.asp
